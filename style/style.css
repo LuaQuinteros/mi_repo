@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    
+
+}
+
+.encabezado-img {
+    width: 10%;
+    
+    
+}
+
+nav {
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.navbar {
+
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+   
+    
+
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font: size 20px;
+    color: rgb(82, 101, 105);
+    
+}
+
+ol li {
+    color: rgb(47, 48, 48);
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 25px 25px 25px 95px;
+
+    
+}
+
+h1 {
+    color: rgb(83, 81, 81);
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+.titulos {
+    
+}
+
+
+#subtituloid {
+    color: rgb(73, 131, 152);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 25px;
+
+
+}
+.presentacioninicio {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 2rem;
+    padding: 2em;
+}
+.presentacioninicio h2 {
+    text-align: center;
+}
+
+.container-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content:center ;
+    padding: 2em;
+
+}
+.container-info h2 {
+    text-align: center;
+}
+
+
+.contenedortextoeimagen {
+    width: 18rem;
+    
+    
+
+}
+
+.contenedortextoeimagen img {
+    width: 100%;
+}
+
+#llamadoalaaccionid {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(44, 202, 202);
+  padding: 20px 20px 20px 20px;
+
+}
+
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+
+.piedepagina {
+    background-color: rgb(191, 222, 245);
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+    "redes-sociales"
+    "numero";
+    gap: 2rem;
+    padding: 1em;
+    margin:0 auto;
+}
+.redes {
+    grid-area:redes-sociales;
+}
+.redes img {
+    width: 25px;
+}
+.piedepagina h3{
+    grid-area:numero;
+}
+
+.textoslargos {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+h3 {
+    color: rgb(70, 121, 153);
+}
+.subtitulo {
+    color: rgb(73, 131, 152);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+.llamadoaccion {
+   
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 15px;
+     margin-left: 25px;
+}
+
+.link {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    
+}
+
+.imginsta {
+    display: inline;
+    width: 45%;
+    margin-left: 400px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+
+.instacontacto {
+    padding: 2rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.adentroformulario {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+
+}
+#tituloformulario {
+    color: rgb(73, 131, 152);
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    
+
+}
+
+.campoformulario {
+    margin: 5px 5px 5px 5px;
+}
+
+#subtituloinscripciones {
+    color: rgb(73, 131, 152);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin: left 600px;
+    margin-top: 15px;
+}
+
+#llamadoaccioncentrado {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 15px;
+     margin-left: 25px;
+
+}
+
+#textolargocentrado {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.galeriastock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.contenedorimgstock {
+    display: grid;
+     gap: 1rem;
+}
+
+.contenedorimgstock img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 500ms ease-in-out;
+}
+
+.videoig {
+    padding: 2rem;
+}
+
+.contenedorimgstock img:hover {
+    transform: scale(1.3);
+}
+
+@media screen and (max-width: 1000px) {
+    .presentacioninicio {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .contenedorimgstock{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

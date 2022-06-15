@@ -4,15 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
     <link rel="stylesheet" href="../style/style.css">
 </head>
 
 <body>
     <header class="encabezado">
    
+        <nav class="navbar navbar-expand-lg bg-propio">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <img src="./imagenes/logo.jpg" alt="" height="64px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"> <a class="nav-link" href="../index.html">Inicio</a> </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                      </li>
+              <li class="nav-item"> <a class="nav-link" href="inscripcion.html">Inscribite</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="tutoriales.html">Tutoriales</a></li>
+              <li class="nav-item"> <a class="nav-link" href="cuidados.html">Cuidados</a></li>
+              <li class="nav-item"> <a class="nav-link" href="comprar.html">Comprar</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     
-    
-        <nav>
+       <!-- <nav>
           <img src="../imagenes/logo.jpg" 
           alt="logo de la marca"
           class="encabezado-img">
@@ -24,7 +49,7 @@
             <li> <a href="cuidados.html">Cuidados</a></li>
             <li><a href="comprar.html">Comprar</a></li>
           </ul>
-        </nav>
+        </nav>-->
     
       </header>
 
@@ -36,21 +61,25 @@
     <h2 class="subtitulo">Contacto</h2>
     <p class="llamadoaccion">Encontranos en las redes</p>
     <section>
-        <article>
-
+        <div class="container"> 
+          <div class="row"> <div class="col12"></div>
             <a class="link" href="https://www.instagram.com/tejidos_supergordos/" target="_blank">Instagram</a>
             <br>
             <iframe width="320" height="440" src="https://www.instagram.com/tejidos_supergordos/embed"
-                title="Instagram reel tutorial" frameborder="0" class="instacontacto">
-            </iframe>
+                title="Instagram reel tutorial" frameborder="0" class="instacontacto container-fluid">
+            </iframe></div>
 
-        </article>
+            
+
+        </div>
     </section>
 </main>
 
     <footer class="piedepagina">
         <h3> Contactate con nosotros llamando al +541130881505</h3>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
 </body>
 
 
